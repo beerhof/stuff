@@ -10,7 +10,7 @@ while True:
     except requests.exceptions.RequestException as e:
         continue
     if request.status_code == 200:
-        winsound.PlaySound("c:\police.wav", winsound.SND_FILENAME)
+        winsound.PlaySound("police.wav", winsound.SND_FILENAME)
         print("strona dziala")
         break
     else:
